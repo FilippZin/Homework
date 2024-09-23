@@ -4,6 +4,8 @@ len_list = len(my_list)
 while i <= len_list :
     if my_list[i] < 0:
         break
+    elif my_list[i] == 0:
+        my_list.pop(i)
     else:
         print(my_list[i])
         i += 1
